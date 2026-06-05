@@ -1,0 +1,7 @@
+192.168.1.5 - - [01/Jun/2026:10:00:01] "GET /index.php HTTP/1.1" 200 5000 
+185.220.101.42 - - [01/Jun/2026:10:01:22] "GET /search.php?search=' HTTP/1.1" 500 234 
+185.220.101.42 - - [01/Jun/2026:10:02:45] "GET /search.php?search=<script>alert(1)</script> HTTP/1.1" 200 1500 
+185.220.101.42 - - [01/Jun/2026:10:03:30] "GET /artists.php?artist=1 HTTP/1.1" 200 2000 
+185.220.101.42 - - [01/Jun/2026:10:03:31] "GET /artists.php?artist=2 HTTP/1.1" 200 2100 
+185.220.101.42 - - [01/Jun/2026:10:03:32] "GET /artists.php?artist=3 HTTP/1.1" 200 1950 
+192.168.1.10 - - [01/Jun/2026:10:04:00] "GET /contact.php HTTP/1.1" 200 1800 
